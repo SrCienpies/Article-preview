@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+* {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #48556a;
+}
+
+.container {
+  background-color: #ecf2f8;
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content {
+  width: 325px;
+  height: 520px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content .bg-img {
+  background-image: url("../src/drawers.jpg");
+  background-size: cover;
+  height: 210px;
+  width: 100%;
+}
+
+.content article {
+  padding: 0 30px;
+}
+
+.content article h2 {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.5em;
+  color: #48556a;
+  margin: 30px 0 15px;
+}
+
+.content article p {
+  line-height: 1.5em;
+  word-spacing: 1px;
+}
+
+.content article footer {
+  width: 100%;
+  margin-top: 2.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content article footer .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content article footer .user-info img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.content article footer .user-info .data {
+  margin-left: 20px;
+}
+
+.content article footer .user-info .data .user {
+  color: #48556a;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.content article footer .user-info .data .date {
+  margin: 2px 0;
+  padding: 0;
+  color: #9eafc2;
+}
+
+.content article footer .share .share-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ecf2f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.content article footer .share .share-icon:hover {
+  background: #6d7f97;
+}
+
+.content article footer .share .share-icon:hover img {
+  -webkit-filter: brightness(100);
+          filter: brightness(100);
+}
+
+.content article footer .share .share-bar {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
